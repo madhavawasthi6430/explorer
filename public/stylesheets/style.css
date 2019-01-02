@@ -3,7 +3,27 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
  /* background-image: url('/images/background2.png');*/
 }
-
+.navbar-default {
+		background: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+		background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+		background: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+		border-color: #1995dc;
+	}
+	.btn-success {
+		background: -webkit-linear-gradient(#88c149, #73a839 60%, #699934);
+		background: -o-linear-gradient(#88c149, #73a839 60%, #699934);
+		background: linear-gradient(#88c149, #73a839 60%, #699934);
+		border-bottom: 1px solid #59822c;
+	}
+	.form-control {
+		border-radius: 4px;
+	}
+	.navbar-default .navbar-nav>.active>a,  .navbar-default .navbar-nav>.active>a:focus {
+		background-color: #178acc;
+	}
+	.navbar-default .navbar-nav a:hover {
+		background-color: #178acc !important;
+	}
 #index-search {
 	width: 80%;
 }
